@@ -1,0 +1,93 @@
+[
+  {
+    "title": "AI Chatbot",
+    "category": "AI/ML",
+    "description": "An intelligent conversational assistant built with Python and OpenAI API, capable of answering questions, holding small talk, and performing basic tasks.",
+    "image": "assets/chatbot.png",
+    "tech": ["Python", "OpenAI API", "Google Speech-to-text"],
+    "github": "https://github.com/ahmadXplore/ai-chatbot",
+    "input_example": "User: Hello!",
+    "output_example": "Bot: Hi! How can I assist you today?",
+    "dataset": "no dataset use API"
+  },
+  {
+    "title": "CardioVascular Prediction Model",
+    "category": "AI/ML",
+    "description": "A deep learning model that predicts the likelihood of cardiovascular diseases using patient health data.",
+    "image": "assets/cardio.png",
+    "tech": ["Python", "Kernal", "Numpy", "Pandas", "Matplotlib", "Scikit-Learn"],
+    "github": "https://github.com/ahmadXplore/image-classifier",
+    "input_example": "{ 'age': 54, 'cholesterol': 250, 'bp': 140 }",
+    "output_example": "Prediction: High Risk",
+    "dataset": "Cardiovascular Disease Dataset",
+    "accuracy": "88%"
+  },
+  {
+    "title": "Movie Recommendation System",
+    "category": "AI/ML",
+    "description": "A recommendation engine that suggests movies based on user preferences and viewing history.",
+    "image": "assets/movie.jpg",
+    "tech": ["Python", "Numpy", "Pandas", "Matplotlib","Seaborn", "Scikit-learn"],
+    "github": "https://github.com/ahmadXplore/sentiment-analyzer",
+    "input_example": "Raiting & Genere: 7.5, Action",
+    "output_example": "Recommended: Interstellar, Shutter Island, Top Gun andl all those movies with rating above or equal 7.5",
+    "dataset": "imdb dataset",
+    "accuracy": "81%"
+  },
+  {
+    "title": "Guess the Number Web Game",
+    "category": "Websites",
+    "description": "A fun browser-based game where the player guesses the secret number chosen by the computer.",
+    "image": "assets/guess_the_number.png",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/ahmadXplore/portfolio"
+  },
+  {
+    "title": "Flappy Bird Web Game",
+    "category": "Websites",
+    "description": "A clone of the popular Flappy Bird game built with HTML, CSS, and JavaScript.",
+    "image": "assets/flappy.jpg",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/ahmadXplore/weather-app"
+  },
+  {
+    "title": "Tower Defense Web Game",
+    "category": "Websites",
+    "description": "A browser-based tower defense game where players place towers to defend against waves of enemies.",
+    "image": "assets/tower.png",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/ahmadXplore/task-manager"
+  },
+  {
+    "title": "Hospital Management System",
+    "category": "C++",
+    "description": "A console-based application to manage hospital records including patient registration, appointments, and billing.",
+    "image": "assets/hospital.jpg",
+    "tech": ["C++"],
+    "github": "https://github.com/ahmadXplore/calculator-mini"
+
+  },
+  {
+    "title": "Bank Management System",
+    "category": "C++",
+    "description": "A C++ application to manage bank accounts with deposit, withdrawal, and balance inquiry features.",
+    "image": "assets/bank.jpg",
+    "tech": ["C++"],
+    "github": "https://github.com/ahmadXplore/notes-mini"  },
+  {
+    "title": "Hotel Management System",
+    "category": "C++",
+    "description": "A console based hotel management program that handles booking, check-in, check-out, and billing.",
+    "image": "assets/hotel.png",
+    "tech": ["C++"],
+    "github": "https://github.com/ahmadXplore/stopwatch-mini"
+  },
+  {
+    "title": "Game Launcher",
+    "category": "C++",
+    "description": "A C++ application to play 3 different games from a single console based interface .",
+    "image": "assets/game.png",
+    "tech": ["C++"],
+    "github": "https://github.com/ahmadXplore/stopwatch-mini"
+  }
+]

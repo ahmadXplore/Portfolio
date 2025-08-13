@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ahmad's Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Personal portfolio website of Ahmad - Data Scientist | AI Assistant Developer | Web Developer."
+    />
+    <meta
+      name="keywords"
+      content="Portfolio, Frontend, Developer, HTML, CSS, JavaScript, React"
+    />
+    <meta name="author" content="Ahmad" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ahmad Portfolio" />
+    <meta
+      property="og:description"
+      content="Personal portfolio website of Ahmad - Data Scientist | AI Assistant Developer | Web Developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-image.png" />
+    <meta property="og:url" content="[Your Portfolio URL]" />
+  
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Animate On Scroll (AOS) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <!-- Logo/Name -->
+      <div class="logo">Ahmad</div>
+      <!-- Navigation Links -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Dark/Light Mode Toggle -->
+      <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <!-- Hamburger Menu (Mobile) -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section (Home) -->
+    <section id="home" class="hero">
+      <!-- Subtle Sparkle/Particle Layer -->
+      <div class="hero-particles" id="hero-particles"></div>
+      <!-- Dynamic SVG Wave Background + Animated Shapes -->
+      <div class="hero-bg">
+        <svg
+          viewBox="0 0 1440 320"
+          class="hero-wave"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="#6366f1"
+            fill-opacity="1"
+            d="M0,160L60,170.7C120,181,240,203,360,197.3C480,192,600,160,720,154.7C840,149,960,171,1080,181.3C1200,192,1320,192,1380,192L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          ></path>
+        </svg>
+        <!-- Animated Floating Shapes -->
+        <svg class="hero-shape shape1" width="60" height="60">
+          <circle cx="30" cy="30" r="30" fill="#06b6d4" opacity="0.18" />
+        </svg>
+        <svg class="hero-shape shape2" width="40" height="40">
+          <rect width="40" height="40" rx="12" fill="#fff" opacity="0.12" />
+        </svg>
+        <svg class="hero-shape shape3" width="32" height="32">
+          <polygon points="16,0 32,32 0,32" fill="#6366f1" opacity="0.13" />
+        </svg>
+      </div>
+      <div class="hero-content" data-aos="fade-up">
+        <div class="hero-avatar" data-aos="fade-down" data-aos-delay="100">
+          <img
+            src="assets/profile.jpg"
+            alt="Ahmad's Profile Photo"
+            class="avatar-img"
+            loading="lazy"
+          />
+        </div>
+        <h1
+          class="hero-name"
+          aria-label="Ahmad"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
+          Ahmad
+        </h1>
+        <span class="hero-badge" data-aos="zoom-in" data-aos-delay="300"
+          >Open to Work</span
+        >
+        <h2 data-aos="fade-left" data-aos-delay="400">
+          Data Scientist | AI Assistant Developer | Web Developer
+        </h2>
+        <p class="hero-tagline" data-aos="fade-up" data-aos-delay="500">
+          <span id="typewriter"></span>
+        </p>
+        <div class="hero-cta" data-aos="zoom-in-up" data-aos-delay="600">
+          <a href="#projects" class="cta-btn" aria-label="View Projects"
+            >View Projects</a
+          >
+          <a href="#contact" class="cta-btn secondary" aria-label="Hire Me"
+            >Hire Me</a
+          >
+        </div>
+      </div>
+      <div class="scroll-down-indicator" aria-label="Scroll down">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-split section">
+      <div class="about-card">
+        <div class="about-left">
+          <img
+            src="assets/profile.jpg"
+            alt="Profile Photo"
+            class="profile-photo"
+            loading="lazy"
+          />
+          <div class="about-quick">
+            <h2>Ahmad</h2>
+            <span class="about-role"
+              >Data Scientist | AI Assistant Developer | Web Developer</span
+            >
+            <span class="about-badge">Open to Work</span>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>Education</h3>
+                <p>
+                  Bachelor of Science in Computer Science<br />University of
+                  Management and Technology (UMT), Lahore<br />Expected
+                  Graduation: 2026
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-lightbulb"></i></div>
+              <div class="timeline-content">
+                <h3>Interests</h3>
+                <p>
+                  Artificial Intelligence, Data Science, Machine Learning, and
+                  exploring how machines can learn from data to automate and
+                  improve modern life.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-futbol"></i></div>
+              <div class="timeline-content">
+                <h3>Hobbies</h3>
+                <p>
+                  Playing football, which helps me stay active, focused, and
+                  mentally refreshed.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-chart-line"></i></div>
+              <div class="timeline-content">
+                <h3>Strengths</h3>
+                <ul>
+                  <li>Quick learner with a passion for self-improvement</li>
+                  <li>Strong analytical and problem-solving skills</li>
+                  <li>Consistent, focused, and committed to goals</li>
+                  <li>Team player with good communication skills</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">
+                <i class="fas fa-exclamation-triangle"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>Weaknesses</h3>
+                <ul>
+                  <li>
+                    Tendency to take on too many tasks at once due to eagerness
+                    to learn
+                  </li>
+                  <li>
+                    Sometimes overthink small details, which can delay
+                    progress<br /><em
+                      >(Working on improving prioritization and time
+                      management)</em
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"><i class="fas fa-trophy"></i></div>
+              <div class="timeline-content">
+                <h3>Favorite Sport</h3>
+                <p>
+                  Football — I admire the strategy, speed, and teamwork it
+                  involves, traits I also apply to technical projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <h2 data-aos="fade-up">Skills</h2>
+      <!-- Filter Chips -->
+      <div
+        class="skills-chips"
+        id="skills-chips"
+        data-aos="fade-up"
+        data-aos-delay="50"
+      >
+        <!-- Chips will be dynamically loaded -->
+      </div>
+      <!-- Circular Grid -->
+      <div
+        class="skills-circular-grid"
+        id="skills-circular-grid"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <!-- Skill icons will be dynamically loaded here -->
+      </div>
+      <!-- Animated Skill Bar/Description -->
+      <div class="skill-detail" id="skill-detail" style="display: none"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <h2 data-aos="fade-up">Projects</h2>
+      <!-- Tab Filters -->
+      <div
+        class="projects-tabs"
+        id="projects-tabs"
+        data-aos="fade-up"
+        data-aos-delay="50"
+      >
+        <button class="tab-btn active" data-filter="All">All</button>
+        <button class="tab-btn" data-filter="Websites">Websites</button>
+        <button class="tab-btn" data-filter="AI/ML">AI/ML</button>
+        <button class="tab-btn" data-filter="C++">C++</button>
+      </div>
+      <div
+        class="projects-grid"
+        id="projects-grid"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <!-- Project cards will be dynamically loaded here -->
+      </div>
+    </section>
+
+    <!-- AI/ML Projects Section (hidden by default, shown when AI/ML tab is active) -->
+    <section id="ai-projects" class="projects section" style="display: none">
+      <div
+        class="projects-grid"
+        id="ai-projects-grid"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <!-- AI/ML project cards will be dynamically loaded here -->
+      </div>
+    </section>
+
+    <!-- Project Modal (hidden by default) -->
+    <div id="project-modal" class="modal-overlay" style="display: none">
+      <div class="modal-content">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <div id="modal-body"><!-- Modal content will be injected here --></div>
+      </div>
+    </div>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <h2 data-aos="fade-up">Resume</h2>
+      <div class="resume-content" data-aos="fade-up" data-aos-delay="100">
+        <iframe
+          src="assets/resume.pdf"
+          title="Resume Preview"
+          width="100%"
+          height="400px"
+        ></iframe>
+        <a href="assets/resume.pdf" download class="cta-btn">Download Resume</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-split section">
+      <h2 class="contact-heading" data-aos="fade-up">Contact</h2>
+      <div class="contact-card">
+        <div class="contact-left">
+          <h2>Let’s Connect</h2>
+          <div class="contact-socials">
+            <a
+              href="https://linkedin.com/in/ahmad-asif-80a27734b"
+              target="_blank"
+              aria-label="LinkedIn"
+              class="contact-social"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/ahmadXplore"
+              target="_blank"
+              aria-label="GitHub"
+              class="contact-social"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=ahmadasif5022004@gmail.com"
+              target="_blank"
+              aria-label="Email"
+              class="contact-social"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contact-form" class="contact-form-glass" autocomplete="off">
+            <div class="form-group">
+              <input type="text" name="name" id="contact-name" required />
+              <label for="contact-name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" id="contact-email" required />
+              <label for="contact-email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="contact-message" required></textarea>
+              <label for="contact-message">Your Message</label>
+            </div>
+            <button type="submit" class="cta-btn contact-btn">
+              Send Message
+            </button>
+          </form>
+          <div
+            id="contact-success"
+            class="contact-success"
+            style="display: none"
+          >
+            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+            <div>Thank you! Your message has been sent.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; <span id="year"></span> Ahmad. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Modular JS Components -->
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/theme.js"></script>
+    <script src="js/components/skills.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/email.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Set current year in footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+      // Initialize AOS
+      AOS.init();
+    </script>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" aria-label="Scroll to top" style="display: none">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>

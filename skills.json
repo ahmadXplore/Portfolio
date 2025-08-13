@@ -1,0 +1,97 @@
+{
+  "Web Development": [ {
+    "name": "HTML5", "icon": "fab fa-html5"
+  }
+
+  ,
+    {
+    "name": "CSS3", "icon": "fab fa-css3-alt"
+  }
+
+  ,
+    {
+    "name": "Sass", "icon": "fab fa-sass"
+  }
+
+  ,
+    {
+    "name": "JavaScript (ES6+)", "icon": "fab fa-js"
+  }
+
+  ],
+  "AI/ML": [ {
+    "name": "Python", "icon": "fab fa-python"
+  }
+
+  ,
+    {
+    "name": "C++", "icon": "fas fa-code"
+  }
+
+  ,
+    {
+    "name": "Pandas", "icon": "fas fa-chart-bar"
+  }
+
+  ,
+    {
+    "name": "NumPy", "icon": "fas fa-chart-line"
+  }
+
+  ,
+    {
+    "name": "Matplotlib", "icon": "fas fa-chart-area"
+  }
+
+  ,
+    {
+    "name": "Seaborn", "icon": "fas fa-chart-pie"
+  }
+
+  ,
+    {
+    "name": "scikit-learn", "icon": "fas fa-flask"
+  }
+
+  ,
+    {
+    "name": "Google Colab", "icon": "fas fa-cloud"
+  }
+
+  
+
+  ],
+  "Tools": [ {
+    "name": "Git & GitHub", "icon": "fab fa-git-alt"
+  },
+    {
+    "name": "Jupyter Notebook", "icon": "fas fa-book"
+  }
+
+  ,
+    {
+    "name": "VS Code", "icon": "fas fa-code"
+  }
+
+  ],
+  "Soft Skills": [ {
+    "name": "Teamwork", "icon": "fas fa-users"
+  }
+
+  ,
+    {
+    "name": "Communication", "icon": "fas fa-comments"
+  }
+
+  ,
+    {
+    "name": "Problem Solving", "icon": "fas fa-lightbulb"
+  }
+
+  ,
+    {
+    "name": "Adaptability", "icon": "fas fa-sync-alt"
+  }
+
+  ]
+}
