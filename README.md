@@ -1,9 +1,9 @@
 # 🌐 Muhammad Ahmad Asif — Portfolio Website
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/Portfolio?color=blue&style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/Portfolio?color=green&style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/your-username/Portfolio?style=for-the-badge)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=your-username.Portfolio)
+![GitHub last commit](https://img.shields.io/github/last-commit/ahmadXplore/Portfolio?color=blue&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/ahmadXplore/Portfolio?color=green&style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/ahmadXplore/Portfolio?style=for-the-badge)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ahmadXplore.Portfolio)
 
 Welcome to the source code of my personal **portfolio website**!  
 This website showcases my **skills**, **projects**, and **achievements** as a developer.
@@ -73,11 +73,6 @@ Simply open the index.html file in your preferred browser.
 
 ## 📜 License
 This project is licensed under the MIT License — see the LICENSE file for details.
-
----
-
-If you want, I can now **update this README** so that each project from your `assets` folder (like `flappy.jpg`, `chatbot.png`, etc.) appears as a **clickable thumbnail** in a "Projects" section. That would make your GitHub page way more engaging.
-
 
 
 
