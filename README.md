@@ -51,26 +51,27 @@ Portfolio/
 ├── index.html       # Main HTML file
 └── README.md
 ```
-##🚀 Getting Started
+## 🚀 Getting Started
 
-##1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/ahmadXplore/Portfolio.git
 ```
-##2️⃣ Navigate to the project folder
+## 2️⃣ Navigate to the project folder
 ```bash
 cd Portfolio
 ```
-##3️⃣ Open in browser
+## 3️⃣ Open in browser
 Simply open the index.html file in your preferred browser.
 (No build process needed for this project)
 
-##📬 Contact Me:
+## 📬 Contact Me:
+
 📧 Email: ahmadasif5022004@gmail.com
 
 💼 LinkedIn: www.linkedin.com/in/ahmad-asif-80a27734b
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 ---
